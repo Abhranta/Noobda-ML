@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class='row'>
+<div class='parent row'>
+    <h1><b>Noobified Machine Learning</b></h1>
+    <div>
+        Wanna do ML? Don't know how to code? Don't worry!! Here is ML for noobs !!!
+    </div>
+    <!--Make the form as two forms for train and test data-->
+    <!-- <div class = 'upload_buttons'>
+        <form method="POST" enctype="multipart/form-data">
+            <input type="file" multiple>
+            <p>Drag your files here or click in this area.</p>
+            <button type="submit">Upload</button>
+        </form>
+    </div> -->
+    <div class='option_buttons'>
+        <button class='automl_button' style="margin-right: 200px" title="We will handle it all for you" onclick = "window.location.href = '/automl'">AutoML</button>
+        <button class='diy' style="margin-left: 200px" title="Wanna choose your model and fine tune it to perfection? This is your choice!!" onclick = "window.location.href = '/diy'" >DIY</button>
+    </div>
+</div>
+</div>
+{% endblock  content%}
