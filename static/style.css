@@ -1,0 +1,326 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 5rem;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #050505;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+    text-align: center;
+  }
+  .upload_buttons{
+    margin-top: 5rem;
+  }
+
+  .parent{
+    margin: 0 auto;
+
+  }
+  form{
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    /* margin-top: -100px;
+    margin-left: -250px; */
+    width: 500px;
+    height: 200px;
+    border: 4px dashed #8b8787;
+    border-radius: 10px;
+  }
+  form p{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 170px;
+    color: #050505;
+    font-family: Arial;
+  }
+  form input{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+  }
+  form button{
+    margin: 0;
+    color: #fff;
+    background: #ff8800;
+    border: none;
+    width: 100%;
+    height: 35px;
+    margin-top: -20px;
+    margin-left: -4px;
+    border-radius: 4px;
+    transition: all .2s ease;
+    outline: none;
+  }
+  form button:hover{
+    background: #ff7300;
+    color: #ffffff;
+  }
+  form button:active{
+    border:0;
+  }
+
+  .option_buttons .automl_button{
+    margin:0;
+    background: #ff8800;
+    color: #fff;
+    border:none;
+    padding: 60px 70px;
+    border-radius: 10px;
+    transition: all .2s ease;    
+  }
+  .option_buttons .automl_button:hover{
+    background: #ff7300;
+    color: #ffffff;
+  }
+  .option_buttons .automl_button:active{
+    border:0;
+  }
+
+  .option_buttons .diy{
+    margin:0;
+    background: #ff8800;
+    color: #fff;
+    border:none;
+    padding:60px 70px;
+    border-radius: 10px;
+  }
+
+  .option_buttons .diy:hover{
+    background: #ff7300;
+    color: #ffffff;
+  }
+  .option_buttons .diy:active{
+    border:0;
+  }
+
+  
+  .about_me_page{
+    margin: 0 auto;
+  }
+  .circular--selfie {
+    position: relative;
+    left: 900px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .circular--selfie img {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-footer,
+  .masthead-heading,
+  .masthead-intro {
+    text-align: center;
+  }
+  
+  .masthead-intro {
+      /* Layout Declarations */
+      margin-bottom: 0.1em;
+      /* Typography Declarations */
+      font-family: 'Varela Round', sans-serif;
+      font-size: 2em;
+  }
+  
+  .masthead-heading {
+      /* Layout Declarations */
+      color: #F1C863;
+      margin-top: -0.2em;
+      /* Typography Declarations */
+      font-family: "Open Sans", "Helvetica Neue", sans-serif;
+      font-weight: bold;
+      font-size: 6em;
+      letter-spacing: -0.02em;
+      text-transform: uppercase;
+  }
+  
+  .introduction-section,
+  .location-section,
+  .questions-section {
+      max-width: 38em;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2em;
+  }
+  
+  .introduction-section > p,
+  .location-section > p,
+  .questions-section,
+  .content-footer > p {
+      /* Typography Declarations */
+      font-weight: 300;
+      letter-spacing: 0.05em;
+  }
+  
+  section > h1 {
+      margin-top: 2em;
+  }
+  
+  .content-footer,
+  .masthead-heading,
+  .masthead-intro {
+    text-align: center;
+  }
+  
+  .masthead {
+    padding: 6em 0;
+    background-image: url('https://i.imgur.com/yGmrlyg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top: solid 1em #FFCF33;
+  }
+  
+  .masthead-intro {
+    margin-bottom: 0.1em;
+    font-family: "Gentium Book Basic", Georgia, serif;
+      font-size: 2em;
+  }
+  
+  .masthead-heading {
+    margin-top: -0.2em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 6em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+  }
+  .introduction > p,
+  .location > p,
+  .content-footer > p {
+      /* Typography Declarations */
+      font-weight: 300;
+      letter-spacing: 0.05em;
+  }
+  h2 {
+      /* Typography Declarations */
+      font-family: "Gentium Book Basic", Georgia, serif;
+      font-size: 1.2em;
+      font-weight: bold;
+  }
+  
+  /* .introduction-section,
+  .location-section,
+  .questions-section {
+      width: 5000px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2em;
+  } */
+  .content-footer {
+    margin: 50px 0;
+    padding: 20px 0;
+    width: 50rem;
+    text-align: center;
+    background-color: #73A8C2;
+    text-decoration: none;
+  }
+  .social > li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .content-footer > p {
+    color: #F7EDE1;
+  }
+  a {
+      font-weight: bold;
+      text-decoration: none;
+      color: #F1C863;
+  }
+    
+  @media only screen and (max-width: 500px) {
+      .masthead {
+          padding: 3em 0;
+      }
+      .masthead-heading {
+          font-size: 3em;
+      }
+      .content-footer {
+          padding: 2em 2.5em;
+    }
+  }
+
+  .bg-steel {
+    background-color: #ff8800;
+  }
+  
+  .site-header .nav-link {
+    color: #ff8800;
+  }
+
+  .navbar-nav {
+    color: #ffffff;
+  }
+  
+  .site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+  
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+  
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  .article-title {
+    color: #444444;
+  }
+  
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+  
+  .article-content {
+    white-space: pre-line;
+  }
+  
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+  
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+  }
+  
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+  
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .account-heading {
+    font-size: 2.5rem;
+  }
